@@ -53,6 +53,30 @@
     <Compile Include="Camioneros.Designer.cs">
       <DependentUpon>Camioneros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Almacenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Almacenero.Designer.cs">
+      <DependentUpon>Almacenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desembarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desembarque.Designer.cs">
+      <DependentUpon>Desembarque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Embarque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Embarque.Designer.cs">
+      <DependentUpon>Embarque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,8 +97,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Almacenero.resx">
+      <DependentUpon>Almacenero.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Camioneros.resx">
       <DependentUpon>Camioneros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embarque.resx">
+      <DependentUpon>Embarque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

@@ -24,71 +24,94 @@ namespace SistemaQuickCarry
         public static ADODB.Connection cn = new ADODB.Connection();
         private static Recordset nothing;
 
-        public static void DoyPermisos(String usuario)
+        public static void DoyPermisos(string usuario, string contrasenaIngresada)
         {
-            String sql;
-            byte rol;
+            string sql;
             ADODB.Recordset rs = new ADODB.Recordset();
             object filasAfectadas;
             byte id_usuario;
 
             frmPrincipal.menuAplicaciones.Enabled = false;
-            frmPrincipal.menuAdmin.Enabled = false; //En la propiedad modifiers poner Public
+            frmPrincipal.menuAdmin.Enabled = false;
             frmPrincipal.menuChofer.Enabled = false;
             frmPrincipal.menuAlmacen.Enabled = false;
 
             if (cn.State != 0)
             {
-                // sentencia sql
-                sql = "select id from Personas where usuario ='" + usuario + "'";
+                // Sentencia SQL para obtener el ID del empleado, su rol y su contraseña
+               sql = "SELECT Empleado.IDEmpleado, Empleado.EsAdmin, Empleado.Contrasenia, " +
+             "CASE " +
+             "    WHEN ConductorCamion.IDEmpleado IS NOT NULL THEN 'Chofer' " +
+             "    WHEN ConductorCamioneta.IDEmpleado IS NOT NULL THEN 'Chofer' " +
+             "    ELSE 'Almacenero' " +
+             "END AS Rol " +
+             "FROM Empleado " +
+             "LEFT JOIN ConductorCamion ON Empleado.IDEmpleado = ConductorCamion.IDEmpleado " +
+             "LEFT JOIN ConductorCamioneta ON Empleado.IDEmpleado = ConductorCamioneta.IDEmpleado " +
+             $"WHERE Empleado.Usuario = '{usuario}'"; ;
+
                 try
                 {
                     rs = cn.Execute(sql, out filasAfectadas);
                 }
-                catch
+                catch (Exception ex)
                 {
+                    Console.Write(ex);
                     rs = null;
                     return;
                 }
+
                 if (rs.RecordCount > 0)
                 {
                     id_usuario = Convert.ToByte(rs.Fields[0].Value);
-                    sql = "select rol_id from usuario_rol where persona_id =" + id_usuario;
-                } 
-                try
-                {
-                    rs = cn.Execute(sql, out filasAfectadas);
-                }
-                catch
-                {
-                    rs = null; //destruir objeto
-                    return;
-                }
-                if (rs.RecordCount > 0)//encontramos rol del usuario
-                {
-                    rol = Convert.ToByte(rs.Fields[0].Value);
-                    switch (rol) 
+                    bool esAdmin = Convert.ToBoolean(rs.Fields[1].Value);
+                    string rol = rs.Fields[3].Value.ToString();
+                    string contrasenaAlmacenada = rs.Fields[2].Value.ToString(); // Obtener la contraseña almacenada
+
+                    Console.WriteLine(rol);
+                    Console.WriteLine("Contraseña almacenada: " + contrasenaAlmacenada); // Mostrar la contraseña almacenada en la consola
+
+                    rs.Close(); // Cerrar el recordset
+
+                    // Compara la contraseña ingresada con la contraseña almacenada en la base de datos
+                    if (contrasenaIngresada == contrasenaAlmacenada)
                     {
-                        case 1: //Admin
+                        if (esAdmin)
+                        {
                             frmPrincipal.menuAplicaciones.Enabled = true;
                             frmPrincipal.menuAdmin.Enabled = true;
                             frmPrincipal.menuLogin.Enabled = false;
-                            break;
-                        case 2: //Chofer
-                            frmPrincipal.menuAplicaciones.Enabled = true;
-                            frmPrincipal.menuChofer.Enabled = true;
-                            frmPrincipal.menuLogin.Enabled = false;
-                            break;
-                        case 3: // Almacenero
-                            frmPrincipal.menuAplicaciones.Enabled = true;
-                            frmPrincipal.menuAlmacen.Enabled = true;
-                            frmPrincipal.menuLogin.Enabled = false;
-                            break;
-                    }//termina switch
-                }//termina if (rs.RecordCount > 0)
-            }//termina if (cn.State != 0)
-            rs = null;
-            filasAfectadas = null;
-        }//termina DoyPermisos
+                        }
+                        else
+                        {
+                            // No es administrador, determina el rol y habilita los menús correspondientes
+                            switch (rol)
+                            {
+                                case "Chofer":
+                                    frmPrincipal.menuAplicaciones.Enabled = true;
+                                    frmPrincipal.menuChofer.Enabled = true;
+                                    frmPrincipal.menuLogin.Enabled = false;
+                                    break;
+                                case "Almacenero":
+                                    frmPrincipal.menuAplicaciones.Enabled = true;
+                                    frmPrincipal.menuAlmacen.Enabled = true;
+                                    frmPrincipal.menuLogin.Enabled = false;
+                                    break;
+                                default:
+                                    // Puedes manejar otros roles u opciones aquí si es necesario
+                                    break;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Contraseña incorrecta, muestra un mensaje de error
+                        MessageBox.Show("Contraseña incorrecta", "Error de autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        cn.Close();
+                    }
+                }
+            }
+        }
     }
 }
+
