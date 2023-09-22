@@ -20,28 +20,6 @@ namespace SistemaQuickCarry
         private void Clientes_Load(object sender, EventArgs e)
         {
             gbDatos.Visible = false;
-            Admin c = new Admin();
-
-            c.conexion = Program.cn;
-            byte resultado = c.fetchRoles();
-
-            switch (resultado)
-            {
-                case 0:
-                    foreach (string item in c.listaRoles)
-                    {
-                        cbxRol.Items.Add(item);
-                    }
-                    break;
-                case 1:
-                    MessageBox.Show("Inicie Sesion Nuevamente");
-                    break;
-                case 2:
-                    MessageBox.Show("Error al Importar Roles");
-                    break;
-            }
-            c = null;
-
         }
         
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -63,10 +41,10 @@ namespace SistemaQuickCarry
                         gbBuscar.Enabled = false;
                         gbDatos.Visible = true;
                         btnEliminar.Enabled = true;
-                        lblNombrePersona.Text = c.nombre;
+                        lblNombrePersona.Text = c.primerNombre+" "+c.segundoNombre+" "+c.primerApellido+" "+c.segundoApellido;
                         lblNombreUsuario.Text = c.usuario;
                         lblIdUsuario.Text = Convert.ToString(c.idUsuario);
-                        lblRolUsuario.Text = c.nombreRol;
+                        lblRolUsuario.Text = c.rol;
                         break;
                     case 1: //Conexión cerrada
                         MessageBox.Show("Debe loguearse manualmente");
@@ -131,12 +109,14 @@ namespace SistemaQuickCarry
             }
             else
             {
-                c.nombre = txtGuardarNombre.Text;
+                c.primerNombre = txtGuardarNombre1.Text;
+                c.segundoNombre = txtGuardarNombre2.Text;
+                c.primerApellido = txtGuardarApellido1.Text;
+                c.segundoApellido = txtGuardarApellido2.Text;
                 c.ci = Convert.ToInt32(txtGuardarCi.Text);
                 c.contrasenia = txtConfContrasenia.Text;
                 c.usuario = txtGuadarUsuario.Text;
-                int index = cbxRol.SelectedIndex + 1 ;
-                c.idRol = (byte)index;
+                c.rol = cbxRol.SelectedText;
                 switch (c.Guardar())
                 {
                     case 0:
@@ -157,6 +137,38 @@ namespace SistemaQuickCarry
                 }
             }
 
+        }
+
+        private void txtCi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbxRol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbGuardarDatos_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGuardarNombre1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            gbBuscar.Enabled = true;
+            gbDatos.Visible = false;
+            btnEliminar.Enabled = false;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

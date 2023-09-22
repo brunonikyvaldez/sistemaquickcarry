@@ -32,6 +32,9 @@
             this.menuAdmin = new System.Windows.Forms.ToolStripMenuItem();
             this.menuChofer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAlmacen = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDesembarque = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuEmbarque = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuInventario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuIngreso = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLogin = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSalir = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,9 +69,33 @@
             // 
             // menuAlmacen
             // 
+            this.menuAlmacen.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuDesembarque,
+            this.menuEmbarque,
+            this.menuInventario});
             this.menuAlmacen.Name = "menuAlmacen";
             this.menuAlmacen.Size = new System.Drawing.Size(180, 22);
             this.menuAlmacen.Text = "Almacen";
+            this.menuAlmacen.Click += new System.EventHandler(this.menuAlmacen_Click);
+            // 
+            // menuDesembarque
+            // 
+            this.menuDesembarque.Name = "menuDesembarque";
+            this.menuDesembarque.Size = new System.Drawing.Size(180, 22);
+            this.menuDesembarque.Text = "Desembarque";
+            this.menuDesembarque.Click += new System.EventHandler(this.menuDesembarque_Click);
+            // 
+            // menuEmbarque
+            // 
+            this.menuEmbarque.Name = "menuEmbarque";
+            this.menuEmbarque.Size = new System.Drawing.Size(180, 22);
+            this.menuEmbarque.Text = "Embarque";
+            // 
+            // menuInventario
+            // 
+            this.menuInventario.Name = "menuInventario";
+            this.menuInventario.Size = new System.Drawing.Size(180, 22);
+            this.menuInventario.Text = "Inventario";
             // 
             // menuIngreso
             // 
@@ -131,5 +158,8 @@
         public System.Windows.Forms.ToolStripMenuItem menuChofer;
         public System.Windows.Forms.ToolStripMenuItem menuAlmacen;
         public System.Windows.Forms.ToolStripMenuItem menuLogin;
+        private System.Windows.Forms.ToolStripMenuItem menuDesembarque;
+        private System.Windows.Forms.ToolStripMenuItem menuEmbarque;
+        private System.Windows.Forms.ToolStripMenuItem menuInventario;
     }
 }

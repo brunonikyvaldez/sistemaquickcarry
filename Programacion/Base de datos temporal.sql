@@ -1,9 +1,10 @@
 create database QuickCarry; 
-use QuickCarry;
+use QuickCarry; 
 
 CREATE TABLE Empleado (
-    IDEmpleado INT PRIMARY KEY,
+    IDEmpleado INT PRIMARY KEY auto_increment,
     Usuario VARCHAR(25) UNIQUE,
+    CI INT UNIQUE,
     PrimerNombre VARCHAR(55),
     SegundoNombre VARCHAR(55),
     PrimerApellido VARCHAR(55),
@@ -126,73 +127,30 @@ CREATE TABLE Camioneta (
     EstadoCamioneta VARCHAR(255)
 );
 
-create user usuarios identified by "j22e10s05";
-GRANT ALL privileges ON QuickCarry to 'usuarios';
 
--- Usuario 1: Administrador
-INSERT INTO Empleado (IDEmpleado, Usuario, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
-VALUES (1, 'admin1', 'PrimerNombre1', 'SegundoNombre1', 'PrimerApellido1', 'SegundoApellido1', 'Licencia1', 1, 'j22e10s05');
+-- Inserta usuarios y datos relacionados
+INSERT INTO Empleado (Usuario, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
+VALUES ('admin1', 123456789, 'PrimerNombre1', 'SegundoNombre1', 'PrimerApellido1', 'SegundoApellido1', 'Licencia1', 1, 'j22e10s05');
 
--- Usuario 2: Chofer
-INSERT INTO Empleado (IDEmpleado, Usuario, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
-VALUES (2, 'chofer1', 'PrimerNombre2', 'SegundoNombre2', 'PrimerApellido2', 'SegundoApellido2', 'Licencia2', 0, 'j22e10s05');
+INSERT INTO Empleado (Usuario, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
+VALUES ('chofer1', 987654321, 'PrimerNombre2', 'SegundoNombre2', 'PrimerApellido2', 'SegundoApellido2', 'Licencia2', 0, 'j22e10s05');
 
--- Usuario 3: Almacenero
-INSERT INTO Empleado (IDEmpleado, Usuario, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
-VALUES (3, 'almacenero1', 'PrimerNombre3', 'SegundoNombre3', 'PrimerApellido3', 'SegundoApellido3', 'Licencia3', 0, 'j22e10s05');
+INSERT INTO Empleado (Usuario, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
+VALUES ('almacenero1', 456789123, 'PrimerNombre3', 'SegundoNombre3', 'PrimerApellido3', 'SegundoApellido3', 'Licencia3', 0, 'j22e10s05');
 
--- Usuario 4: Chofer de Camion
-INSERT INTO Empleado (IDEmpleado, Usuario, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
-VALUES (4, 'chofer_camion1', 'PrimerNombre4', 'SegundoNombre4', 'PrimerApellido4', 'SegundoApellido4', 'Licencia4', 0, 'j22e10s05');
+INSERT INTO Empleado (Usuario, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
+VALUES ('chofer_camion1', 789123456, 'PrimerNombre4', 'SegundoNombre4', 'PrimerApellido4', 'SegundoApellido4', 'Licencia4', 0, 'j22e10s05');
 
--- Usuario 5: Chofer de Camioneta
-INSERT INTO Empleado (IDEmpleado, Usuario, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
-VALUES (5, 'chofer_camioneta1', 'PrimerNombre5', 'SegundoNombre5', 'PrimerApellido5', 'SegundoApellido5', 'Licencia5', 0, 'j22e10s05');
+INSERT INTO Empleado (Usuario, CI, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, FinalLicencia, EsAdmin, Contrasenia)
+VALUES ('chofer_camioneta1', 654321987, 'PrimerNombre5', 'SegundoNombre5', 'PrimerApellido5', 'SegundoApellido5', 'Licencia5', 0, 'j22e10s05');
 
--- Inserción en la tabla Telefonos (para el Usuario 1)
+-- Inserta números de teléfono
 INSERT INTO Telefonos (IDEmpleado, NroTelefono)
 VALUES (1, 123456789);
 
--- Inserción en la tabla ConductorCamion (para el Usuario 4)
+-- Inserta fechas de vencimiento de libretas
 INSERT INTO ConductorCamion (IDEmpleado, VencimientoLibretaC)
 VALUES (4, '2023-12-31');
 
--- Inserción en la tabla ConductorCamioneta (para el Usuario 5)
 INSERT INTO ConductorCamioneta (IDEmpleado, VencimientoLibretaA)
 VALUES (5, '2023-12-31');
-
--- Inserción en la tabla Camiones (para un camión que el Usuario 4 conduce)
-INSERT INTO Camiones (MatriculaCamion, EstadoCamion, PesoC)
-VALUES ('Camion1', 'Activo', 5000);
-
--- Inserción en la tabla Cargamento (asumiendo que el Usuario 4 lleva un cargamento en Camion1)
-INSERT INTO Cargamento (MatriculaCamion, GuiaMadre, DiaSL, MesSL, AñoSL, HoraSL, MinutoSL, DiaLLL, MesLLL, AñoLLL, HoraLLL, MinutoLLL)
-VALUES ('Camion1', 1, 1, 9, 2023, 8, 0, 1, 9, 2023, 16, 0);
-
--- Inserción en la tabla Sectores (para el cargamento en el Usuario 4)
-INSERT INTO Sectores (GuiaMadre, IdLocal)
-VALUES (1, 1);
-
--- Inserción en la tabla Lote (para el cargamento en el Usuario 4)
-INSERT INTO Lote (GuiaMadre, EstadoL, DiaIL, MesIL, AñoIL)
-VALUES (1, 'En tránsito', 1, 9, 2023);
-
--- Inserción en la tabla Locales (para el sector en el Usuario 4)
-INSERT INTO Locales (IdLocal, DireccionLocal, CiudadLocal)
-VALUES (1, 'Calle Principal 123', 'Ciudad Ejemplo');
-
--- Inserción en la tabla Contiene (para el paquete en el Usuario 4)
-INSERT INTO Contiene (CodigoDeBarras, GuiaMadre)
-VALUES (1001, 1);
-
--- Inserción en la tabla Paquete (para el paquete en el Usuario 4)
-INSERT INTO Paquete (CodigoDeBarras, TipoPaquete, Cedula, EstadoP, DireccionDestino, CiudadDestino, DiaIP, MesIP, AñoIP)
-VALUES (1001, 'Paquete1', 1234567, 'En tránsito', 'Dirección Destino 1', 'Ciudad Destino 1', 1, 9, 2023);
-
--- Inserción en la tabla LLeva (para el paquete en el Usuario 4)
-INSERT INTO LLeva (CodigoDeBarras, MatriculaCamioneta, DiaLLP, MesLLP, AñoLLP, HoraLLP, MinutoLLP, DiaSP, MesSP, AñoSP, HoraSP, MinutoSP)
-VALUES (1001, 'Camioneta1', 1, 9, 2023, 8, 30, 1, 9, 2023, 15, 0);
-
--- Inserción en la tabla Camioneta (para la camioneta que el Usuario 5 conduce)
-INSERT INTO Camioneta (MatriculaCamioneta, EstadoCamioneta)
-VALUES ('Camioneta1', 'Activo');

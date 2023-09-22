@@ -58,8 +58,14 @@
             this.lblGuardarUsuario = new System.Windows.Forms.Label();
             this.txtGuardarCi = new System.Windows.Forms.TextBox();
             this.lblGuardarCi = new System.Windows.Forms.Label();
-            this.lblGuardarNombre = new System.Windows.Forms.Label();
-            this.txtGuardarNombre = new System.Windows.Forms.TextBox();
+            this.lblGuardarNombre1 = new System.Windows.Forms.Label();
+            this.txtGuardarNombre1 = new System.Windows.Forms.TextBox();
+            this.lblGuardarNombre2 = new System.Windows.Forms.Label();
+            this.txtGuardarNombre2 = new System.Windows.Forms.TextBox();
+            this.lblGuardarApellido1 = new System.Windows.Forms.Label();
+            this.txtGuardarApellido1 = new System.Windows.Forms.TextBox();
+            this.lblGuardarApellido2 = new System.Windows.Forms.Label();
+            this.txtGuardarApellido2 = new System.Windows.Forms.TextBox();
             this.gbBuscar.SuspendLayout();
             this.gbDatos.SuspendLayout();
             this.gbBusquedas.SuspendLayout();
@@ -95,6 +101,7 @@
             this.txtCi.Name = "txtCi";
             this.txtCi.Size = new System.Drawing.Size(100, 20);
             this.txtCi.TabIndex = 3;
+            this.txtCi.TextChanged += new System.EventHandler(this.txtCi_TextChanged);
             // 
             // lblCi
             // 
@@ -186,6 +193,7 @@
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnEliminar
             // 
@@ -216,12 +224,13 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(1051, 461);
+            this.btnSalir.Location = new System.Drawing.Point(616, 401);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // gbBusquedas
             // 
@@ -239,13 +248,13 @@
             this.gbGuardar.Controls.Add(this.gbGuardarDatos);
             this.gbGuardar.Location = new System.Drawing.Point(340, 12);
             this.gbGuardar.Name = "gbGuardar";
-            this.gbGuardar.Size = new System.Drawing.Size(351, 277);
+            this.gbGuardar.Size = new System.Drawing.Size(351, 383);
             this.gbGuardar.TabIndex = 4;
             this.gbGuardar.TabStop = false;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(123, 221);
+            this.btnGuardar.Location = new System.Drawing.Point(136, 334);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 1;
@@ -255,6 +264,12 @@
             // 
             // gbGuardarDatos
             // 
+            this.gbGuardarDatos.Controls.Add(this.lblGuardarApellido2);
+            this.gbGuardarDatos.Controls.Add(this.txtGuardarApellido2);
+            this.gbGuardarDatos.Controls.Add(this.lblGuardarApellido1);
+            this.gbGuardarDatos.Controls.Add(this.txtGuardarApellido1);
+            this.gbGuardarDatos.Controls.Add(this.lblGuardarNombre2);
+            this.gbGuardarDatos.Controls.Add(this.txtGuardarNombre2);
             this.gbGuardarDatos.Controls.Add(this.lblGuardarRol);
             this.gbGuardarDatos.Controls.Add(this.cbxRol);
             this.gbGuardarDatos.Controls.Add(this.txtConfContrasenia);
@@ -265,19 +280,20 @@
             this.gbGuardarDatos.Controls.Add(this.lblGuardarUsuario);
             this.gbGuardarDatos.Controls.Add(this.txtGuardarCi);
             this.gbGuardarDatos.Controls.Add(this.lblGuardarCi);
-            this.gbGuardarDatos.Controls.Add(this.lblGuardarNombre);
-            this.gbGuardarDatos.Controls.Add(this.txtGuardarNombre);
+            this.gbGuardarDatos.Controls.Add(this.lblGuardarNombre1);
+            this.gbGuardarDatos.Controls.Add(this.txtGuardarNombre1);
             this.gbGuardarDatos.Location = new System.Drawing.Point(30, 19);
             this.gbGuardarDatos.Name = "gbGuardarDatos";
-            this.gbGuardarDatos.Size = new System.Drawing.Size(288, 193);
+            this.gbGuardarDatos.Size = new System.Drawing.Size(288, 309);
             this.gbGuardarDatos.TabIndex = 0;
             this.gbGuardarDatos.TabStop = false;
             this.gbGuardarDatos.Text = "Datos";
+            this.gbGuardarDatos.Enter += new System.EventHandler(this.gbGuardarDatos_Enter);
             // 
             // lblGuardarRol
             // 
             this.lblGuardarRol.AutoSize = true;
-            this.lblGuardarRol.Location = new System.Drawing.Point(16, 167);
+            this.lblGuardarRol.Location = new System.Drawing.Point(16, 237);
             this.lblGuardarRol.Name = "lblGuardarRol";
             this.lblGuardarRol.Size = new System.Drawing.Size(23, 13);
             this.lblGuardarRol.TabIndex = 11;
@@ -286,21 +302,27 @@
             // cbxRol
             // 
             this.cbxRol.FormattingEnabled = true;
-            this.cbxRol.Location = new System.Drawing.Point(131, 164);
+            this.cbxRol.Items.AddRange(new object[] {
+            "Almacenero",
+            "Camionero",
+            "Administrador",
+            "Conductor"});
+            this.cbxRol.Location = new System.Drawing.Point(131, 236);
             this.cbxRol.Name = "cbxRol";
             this.cbxRol.Size = new System.Drawing.Size(121, 21);
             this.cbxRol.TabIndex = 10;
+            this.cbxRol.SelectedIndexChanged += new System.EventHandler(this.cbxRol_SelectedIndexChanged);
             // 
             // txtConfContrasenia
             // 
-            this.txtConfContrasenia.Location = new System.Drawing.Point(131, 137);
+            this.txtConfContrasenia.Location = new System.Drawing.Point(131, 210);
             this.txtConfContrasenia.Name = "txtConfContrasenia";
             this.txtConfContrasenia.Size = new System.Drawing.Size(121, 20);
             this.txtConfContrasenia.TabIndex = 9;
             // 
             // txtContrasenia
             // 
-            this.txtContrasenia.Location = new System.Drawing.Point(131, 110);
+            this.txtContrasenia.Location = new System.Drawing.Point(131, 184);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(121, 20);
             this.txtContrasenia.TabIndex = 8;
@@ -308,7 +330,7 @@
             // lblConfContrasenia
             // 
             this.lblConfContrasenia.AutoSize = true;
-            this.lblConfContrasenia.Location = new System.Drawing.Point(16, 140);
+            this.lblConfContrasenia.Location = new System.Drawing.Point(16, 213);
             this.lblConfContrasenia.Name = "lblConfContrasenia";
             this.lblConfContrasenia.Size = new System.Drawing.Size(108, 13);
             this.lblConfContrasenia.TabIndex = 7;
@@ -317,7 +339,7 @@
             // lblContrasenia
             // 
             this.lblContrasenia.AutoSize = true;
-            this.lblContrasenia.Location = new System.Drawing.Point(16, 113);
+            this.lblContrasenia.Location = new System.Drawing.Point(16, 187);
             this.lblContrasenia.Name = "lblContrasenia";
             this.lblContrasenia.Size = new System.Drawing.Size(61, 13);
             this.lblContrasenia.TabIndex = 6;
@@ -325,7 +347,7 @@
             // 
             // txtGuadarUsuario
             // 
-            this.txtGuadarUsuario.Location = new System.Drawing.Point(131, 85);
+            this.txtGuadarUsuario.Location = new System.Drawing.Point(131, 158);
             this.txtGuadarUsuario.Name = "txtGuadarUsuario";
             this.txtGuadarUsuario.Size = new System.Drawing.Size(121, 20);
             this.txtGuadarUsuario.TabIndex = 5;
@@ -333,7 +355,7 @@
             // lblGuardarUsuario
             // 
             this.lblGuardarUsuario.AutoSize = true;
-            this.lblGuardarUsuario.Location = new System.Drawing.Point(16, 88);
+            this.lblGuardarUsuario.Location = new System.Drawing.Point(16, 161);
             this.lblGuardarUsuario.Name = "lblGuardarUsuario";
             this.lblGuardarUsuario.Size = new System.Drawing.Size(98, 13);
             this.lblGuardarUsuario.TabIndex = 4;
@@ -355,28 +377,79 @@
             this.lblGuardarCi.TabIndex = 2;
             this.lblGuardarCi.Text = "Cedula";
             // 
-            // lblGuardarNombre
+            // lblGuardarNombre1
             // 
-            this.lblGuardarNombre.AutoSize = true;
-            this.lblGuardarNombre.Location = new System.Drawing.Point(16, 59);
-            this.lblGuardarNombre.Name = "lblGuardarNombre";
-            this.lblGuardarNombre.Size = new System.Drawing.Size(44, 13);
-            this.lblGuardarNombre.TabIndex = 1;
-            this.lblGuardarNombre.Text = "Nombre";
+            this.lblGuardarNombre1.AutoSize = true;
+            this.lblGuardarNombre1.Location = new System.Drawing.Point(13, 56);
+            this.lblGuardarNombre1.Name = "lblGuardarNombre1";
+            this.lblGuardarNombre1.Size = new System.Drawing.Size(79, 13);
+            this.lblGuardarNombre1.TabIndex = 1;
+            this.lblGuardarNombre1.Text = " Primer Nombre";
+            this.lblGuardarNombre1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblGuardarNombre1.Click += new System.EventHandler(this.lblGuardarNombre1_Click);
             // 
-            // txtGuardarNombre
+            // txtGuardarNombre1
             // 
-            this.txtGuardarNombre.Location = new System.Drawing.Point(131, 56);
-            this.txtGuardarNombre.Name = "txtGuardarNombre";
-            this.txtGuardarNombre.Size = new System.Drawing.Size(121, 20);
-            this.txtGuardarNombre.TabIndex = 0;
+            this.txtGuardarNombre1.Location = new System.Drawing.Point(131, 56);
+            this.txtGuardarNombre1.Name = "txtGuardarNombre1";
+            this.txtGuardarNombre1.Size = new System.Drawing.Size(121, 20);
+            this.txtGuardarNombre1.TabIndex = 0;
+            // 
+            // lblGuardarNombre2
+            // 
+            this.lblGuardarNombre2.AutoSize = true;
+            this.lblGuardarNombre2.Location = new System.Drawing.Point(13, 85);
+            this.lblGuardarNombre2.Name = "lblGuardarNombre2";
+            this.lblGuardarNombre2.Size = new System.Drawing.Size(93, 13);
+            this.lblGuardarNombre2.TabIndex = 13;
+            this.lblGuardarNombre2.Text = " Segundo Nombre";
+            // 
+            // txtGuardarNombre2
+            // 
+            this.txtGuardarNombre2.Location = new System.Drawing.Point(131, 82);
+            this.txtGuardarNombre2.Name = "txtGuardarNombre2";
+            this.txtGuardarNombre2.Size = new System.Drawing.Size(121, 20);
+            this.txtGuardarNombre2.TabIndex = 12;
+            // 
+            // lblGuardarApellido1
+            // 
+            this.lblGuardarApellido1.AutoSize = true;
+            this.lblGuardarApellido1.Location = new System.Drawing.Point(16, 111);
+            this.lblGuardarApellido1.Name = "lblGuardarApellido1";
+            this.lblGuardarApellido1.Size = new System.Drawing.Size(76, 13);
+            this.lblGuardarApellido1.TabIndex = 15;
+            this.lblGuardarApellido1.Text = "Primer Apellido";
+            // 
+            // txtGuardarApellido1
+            // 
+            this.txtGuardarApellido1.Location = new System.Drawing.Point(131, 108);
+            this.txtGuardarApellido1.Name = "txtGuardarApellido1";
+            this.txtGuardarApellido1.Size = new System.Drawing.Size(121, 20);
+            this.txtGuardarApellido1.TabIndex = 14;
+            // 
+            // lblGuardarApellido2
+            // 
+            this.lblGuardarApellido2.AutoSize = true;
+            this.lblGuardarApellido2.Location = new System.Drawing.Point(16, 136);
+            this.lblGuardarApellido2.Name = "lblGuardarApellido2";
+            this.lblGuardarApellido2.Size = new System.Drawing.Size(93, 17);
+            this.lblGuardarApellido2.TabIndex = 17;
+            this.lblGuardarApellido2.Text = "Segundo Apellido";
+            this.lblGuardarApellido2.UseCompatibleTextRendering = true;
+            // 
+            // txtGuardarApellido2
+            // 
+            this.txtGuardarApellido2.Location = new System.Drawing.Point(131, 132);
+            this.txtGuardarApellido2.Name = "txtGuardarApellido2";
+            this.txtGuardarApellido2.Size = new System.Drawing.Size(121, 20);
+            this.txtGuardarApellido2.TabIndex = 16;
             // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(1138, 496);
+            this.ClientSize = new System.Drawing.Size(714, 430);
             this.Controls.Add(this.gbGuardar);
             this.Controls.Add(this.gbBusquedas);
             this.Controls.Add(this.btnSalir);
@@ -424,10 +497,16 @@
         private System.Windows.Forms.Label lblGuardarUsuario;
         private System.Windows.Forms.TextBox txtGuardarCi;
         private System.Windows.Forms.Label lblGuardarCi;
-        private System.Windows.Forms.Label lblGuardarNombre;
-        private System.Windows.Forms.TextBox txtGuardarNombre;
+        private System.Windows.Forms.Label lblGuardarNombre1;
+        private System.Windows.Forms.TextBox txtGuardarNombre1;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label lblGuardarRol;
         private System.Windows.Forms.ComboBox cbxRol;
+        private System.Windows.Forms.Label lblGuardarApellido2;
+        private System.Windows.Forms.TextBox txtGuardarApellido2;
+        private System.Windows.Forms.Label lblGuardarApellido1;
+        private System.Windows.Forms.TextBox txtGuardarApellido1;
+        private System.Windows.Forms.Label lblGuardarNombre2;
+        private System.Windows.Forms.TextBox txtGuardarNombre2;
     }
 }

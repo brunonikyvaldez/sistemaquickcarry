@@ -21,5 +21,10 @@ namespace SistemaQuickCarry
         {
 
         }
+
+        private void Camioneros_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

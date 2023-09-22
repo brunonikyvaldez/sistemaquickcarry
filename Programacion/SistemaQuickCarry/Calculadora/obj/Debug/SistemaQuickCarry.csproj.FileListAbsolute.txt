@@ -75,3 +75,20 @@ D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto
 D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
 D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Interop.ADODB.dll
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Camioneros.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Embarque.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Inventario.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.pdb

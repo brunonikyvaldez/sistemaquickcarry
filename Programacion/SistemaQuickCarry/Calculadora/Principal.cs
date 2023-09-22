@@ -54,5 +54,15 @@ namespace SistemaQuickCarry
             frmCamioneros.MdiParent = this;
             frmCamioneros.Show();
         }
+
+        private void menuAlmacen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuDesembarque_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 531);
+            this.ClientSize = new System.Drawing.Size(827, 533);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblMatricula);
             this.Controls.Add(this.lblIdCamionero);
@@ -177,6 +177,7 @@
             this.Controls.Add(this.btnSalidaCamion);
             this.Name = "Camioneros";
             this.Text = "Camioneros";
+            this.Load += new System.EventHandler(this.Camioneros_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
