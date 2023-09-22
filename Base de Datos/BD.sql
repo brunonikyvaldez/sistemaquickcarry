@@ -1,3 +1,6 @@
+CREATE database QuickCarry
+use QuickCarry
+    
 CREATE TABLE Empleado (
     IDEmpleado INT PRIMARY KEY,
     PrimerNombre VARCHAR(255),
@@ -121,3 +124,7 @@ CREATE TABLE Camioneta (
     EstadoCamioneta VARCHAR(255),
     PRIMARY KEY (MatriculaCamioneta)
 );
+CREATE USER ADMINISTRADOR IDENTIFIED BY "********"
+GRANT ALL PRIVILEGES ON QuickCarry TO ADMINISTRADOR
+
+
