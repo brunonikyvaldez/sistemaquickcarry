@@ -1,0 +1,10 @@
+---
+- name: Programar tarea cron para el script de respaldo
+  hosts: localhost
+  tasks:
+    - name: Agregar tarea cron para el script de respaldo
+      ansible.builtin.cron:
+        name: "Ejecutar script de respaldo"
+        minute: "0"
+        hour: "2"
+        job: "/root/respaldo.sh"
