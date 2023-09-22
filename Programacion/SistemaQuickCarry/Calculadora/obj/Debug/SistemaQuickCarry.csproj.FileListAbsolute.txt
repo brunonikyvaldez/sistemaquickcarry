@@ -1,0 +1,94 @@
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Interop.ADODB.dll
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Principal.resources
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Clientes.resources
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Login.resources
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Interop.ADODB.dll
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Camioneros.resources
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase1.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Interop.ADODB.dll
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\alumno\Documents\Proyecto de clase4.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Camioneros.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Interop.ADODB.dll
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Camioneros.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+D:\Pokemon Lengends Arceus\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Interop.ADODB.dll
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Almacenero.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Camioneros.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Embarque.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Inventario.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+D:\Pokemon Lengends Arceus\proyecto\sistemaquickcarry-main\Programacion\Proyecto de clase5.0\Proyecto de clase5.0\Proyecto de clase\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csprojAssemblyReference.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Interop.ADODB.dll
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.ResolveComReference.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Camioneros.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Embarque.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Inventario.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Principal.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Administrador.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.Login.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.GenerateResource.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\SistemaQuickCarry.csproj.CoreCompileInputs.cache
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\jbepo\OneDrive\Documents\proy\sistemaquickcarry-main\sistemaquickcarry-main\Programacion\SistemaQuickCarry\Calculadora\obj\Debug\Calculadora.pdb
