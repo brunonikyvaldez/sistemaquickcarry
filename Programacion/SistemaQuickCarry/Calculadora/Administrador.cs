@@ -24,7 +24,7 @@ namespace SistemaQuickCarry
         
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Admin c = new Admin();
+            Empleados c = new Empleados();
             Int32 ci;
             c.conexion = Program.cn;
             DialogResult respuesta;
@@ -67,7 +67,7 @@ namespace SistemaQuickCarry
         {
             Int32 ci;
             DialogResult respuesta;
-            Admin c = new Admin();
+            Empleados c = new Empleados();
             if(!Int32.TryParse(txtCi.Text, out ci))
             {
                 MessageBox.Show("CI debe ser numérica");
@@ -96,7 +96,7 @@ namespace SistemaQuickCarry
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            Admin c = new Admin();
+            Empleados c = new Empleados();
             Int32 ci;
             c.conexion = Program.cn;
             if (!Int32.TryParse(txtGuardarCi.Text, out ci))

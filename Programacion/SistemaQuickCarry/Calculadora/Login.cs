@@ -21,7 +21,7 @@ namespace SistemaQuickCarry
         { 
             try
             {
-                Program.cn.Open("MioDBC","usuarios", "j22e10s05");
+                Program.cn.Open("MioDBC",txtUsuario.Text, txtContrasenia.Text);
 
             }
             catch (Exception ex)
@@ -33,7 +33,7 @@ namespace SistemaQuickCarry
                
             }
             Program.cn.CursorLocation=ADODB.CursorLocationEnum.adUseClient;//--->La propiedad CursorLocation indica cuál es la memoria que vamos a utilizar para almacenar el resultado de los select.
-            Program.DoyPermisos(txtUsuario.Text,txtContrasenia.Text);                          
+            Program.DoyPermisos(txtUsuario.Text);                          
             this.Close();
         }
 
