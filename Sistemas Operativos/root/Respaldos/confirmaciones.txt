@@ -1,0 +1,75 @@
+vie nov  3 07:24:02 -03 2023 -----   OK
+vie nov  3 07:25:01 -03 2023 -----   OK
+vie nov  3 07:26:01 -03 2023 -----   OK
+mié nov  8 09:42:01 -03 2023 -----   OK
+mié nov  8 09:43:01 -03 2023 -----   OK
+mié nov  8 09:44:01 -03 2023 -----   OK
+mié nov  8 09:45:01 -03 2023 -----   OK
+mié nov  8 09:46:01 -03 2023 -----   OK
+lun nov 13 12:50:34 -03 2023 -----   Respaldo BD - OK
+lun nov 13 12:53:36 -03 2023 -----   Respaldo BD - OK
+lun nov 13 12:56:00 -03 2023 -----   Respaldo BD - OK
+lun nov 13 14:32:04 -03 2023 -----   Respaldo BD - OK
+mié nov 15 00:44:39 -03 2023 -----   Respaldo BD - OK
+mié nov 15 00:48:30 -03 2023 -----   Respaldo BD - ERROR
+mié nov 15 00:50:14 -03 2023 -----   Respaldo BD - OK
+mié nov 15 00:54:58 -03 2023 -----   Respaldo BD - OK
+mié nov 15 02:00:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 07:36:02 -03 2023 -----   Respaldo BD - OK
+mié nov 15 07:37:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 07:40:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 07:40:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 07:46:02 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 07:57:02 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 07:58:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 07:59:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:00:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:01:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:02:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:03:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:04:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:05:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:06:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:07:02 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:08:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:09:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:10:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:11:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:12:01 -03 2023 -----   Respaldo Scripts - ERROR
+mié nov 15 08:13:02 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:14:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:15:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:16:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:17:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:18:02 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:19:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:19:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 08:20:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:20:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 08:21:02 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:21:02 -03 2023 -----   Respaldo BD - OK
+mié nov 15 08:22:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:22:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 08:23:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:23:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 08:24:02 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 08:24:02 -03 2023 -----   Respaldo BD - OK
+mié nov 15 18:09:16 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:01:43 -03 2023 -----   Respaldo Usuarios - OK
+mié nov 15 20:15:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:15:02 -03 2023 -----   Respaldo BD - OK
+mié nov 15 20:16:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:16:01 -03 2023 -----   Respaldo Usuarios - OK
+mié nov 15 20:16:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 20:17:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:17:02 -03 2023 -----   Respaldo Usuarios - OK
+mié nov 15 20:17:02 -03 2023 -----   Respaldo BD - OK
+mié nov 15 20:18:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:18:01 -03 2023 -----   Respaldo Usuarios - OK
+mié nov 15 20:18:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 20:19:01 -03 2023 -----   Respaldo Scripts - OK
+mié nov 15 20:19:01 -03 2023 -----   Respaldo Usuarios - OK
+mié nov 15 20:19:01 -03 2023 -----   Respaldo BD - OK
+mié nov 15 21:11:02 -03 2023 -----   Respaldo Iptables - ERROR
+mié nov 15 21:19:44 -03 2023 -----   Respaldo Iptables - ERROR
+mié nov 15 21:25:21 -03 2023 -----   Respaldo Iptables - OK

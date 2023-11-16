@@ -1,0 +1,14 @@
+---
+- name: Instalar Apache en CentOS7
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Instalar Apache
+      yum:
+        name: httpd
+        state: present
+    - name: Iniciar servicio de Apache
+      service:
+        name: httpd
+        state: started
+        enabled: yes

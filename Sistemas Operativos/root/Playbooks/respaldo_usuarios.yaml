@@ -1,0 +1,12 @@
+---
+- name: Configurar crontab para respaldo de usuarios
+  hosts: localhost
+  become: true
+
+  tasks:
+    - name: Crear el crontab para ejecutar el script a las 2 AM
+      cron:
+        name: "Respaldar usuarios"
+        minute: "0"
+        hour: "2"
+        job: "/root/Scripts/Backup/respaldo_usuarios.sh"
