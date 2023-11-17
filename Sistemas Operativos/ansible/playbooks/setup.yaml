@@ -1,0 +1,10 @@
+---
+- name: Configuración del Servidor
+  hosts: localhost
+  become: yes
+
+  roles:
+    - firewall
+    - mysql
+    - respaldos
+    - scripts

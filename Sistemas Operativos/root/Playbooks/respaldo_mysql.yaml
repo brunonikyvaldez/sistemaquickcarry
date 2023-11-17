@@ -1,0 +1,13 @@
+---
+- name: Programar tarea cron para el script de mysql
+  hosts: localhost
+  become: true
+
+  tasks:
+    - name: Agregar tarea cron para el script de mysql
+      ansible.builtin.cron:
+        name: "Ejecutar script de respaldo de MySQL"
+        minute: "0"
+        hour: "2"
+        job: "/root/Scripts/Backup/respaldo_mysql.sh"
+
