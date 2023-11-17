@@ -5,6 +5,6 @@
 
   tasks:
     - name: Copiar script
-      copy: 'src=/root/Scripts/Puesta_a_punto/instalar_mysql.sh dest=/root/Scripts/Puesta_a_punto/instalar_mysql.sh'
+      copy: 'src=/root/Scripts/Puesta_a_punto/instalar_mysql.sh dest=/root/Scripts/Puesta_a_punto/'
     - name: ejecutar
       command: "/root/Scripts/Puesta_a_punto/instalar_mysql.sh"
