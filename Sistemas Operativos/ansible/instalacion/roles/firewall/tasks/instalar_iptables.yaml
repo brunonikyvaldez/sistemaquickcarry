@@ -1,12 +1,10 @@
 ---
-- name: Configurar crontab para instalar iptables
+- name: Configuración para instalar iptables
   hosts: localhost
   become: true
 
   tasks:
-    - name: Crear el crontab para ejecutar el script a las 2 AM
-      cron:
-        name: "Instalar iptables"
-        minute: "0"
-        hour: "2"
-        job: "/root/Scripts/Puesta_a_punto/instalar_iptables.sh"
+    - name: Copiar script
+      copy: 'src=/root/Scripts/Puesta_a_punto/instalar_iptables.sh dest=/root/Scripts/Puesta_a_punto/'
+    - name: Ejecutar script
+      command: "/root/Scripts/Puesta_a_punto/instalar_iptables.sh"
