@@ -1,10 +1,10 @@
 ---
-- name: Configurar crontab para instalar mysql
+- name: Configuración para instalar mysql
   hosts: localhost
   become: true
 
   tasks:
     - name: Copiar script
       copy: 'src=/root/Scripts/Puesta_a_punto/instalar_mysql.sh dest=/root/Scripts/Puesta_a_punto/'
-    - name: ejecutar
+    - name: Ejecutar script
       command: "/root/Scripts/Puesta_a_punto/instalar_mysql.sh"
